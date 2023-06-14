@@ -14,6 +14,7 @@ public class DemoGitAction2Application {
         return "Hello";
     }
     public static void main(String[] args) {
+        System.out.println("HELLO");
         SpringApplication.run(DemoGitAction2Application.class, args);
     }
 
